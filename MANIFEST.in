@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include terobosan *.css
+recursive-include terobosan *.csv
+recursive-include terobosan *.html
+recursive-include terobosan *.ico
+recursive-include terobosan *.js
+recursive-include terobosan *.json
+recursive-include terobosan *.md
+recursive-include terobosan *.png
+recursive-include terobosan *.py
+recursive-include terobosan *.svg
+recursive-include terobosan *.txt
+recursive-exclude terobosan *.pyc
